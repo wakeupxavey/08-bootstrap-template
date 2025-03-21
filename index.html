@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap Template</title>
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+   
+   <style>
+
+    *:has(> video.fullscreen) { 
+    position: relative;
+}
+
+    video.fullscreen{
+        height: 100%;
+        width: auto;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        z-index: -1;
+    }
+
+    @media (min-aspect-ratio:16/9){
+    video.fullscreen{
+        height: auto;
+        width: 100%;
+    }
+}
+
+
+#slide1-background-holder{
+  background-image:url("images/meshoot.jpeg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: right;
+}
+
+#slide2-background-holder{
+  background-image:url("images/popeshoot.jpeg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: right;
+}
+
+#slide25-background-holder{
+  background-image:url("images/popeball.jpeg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: right;
+}
+
+#slide3-background-holder{
+  background-image:url("images/groupshoot.jpeg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: right;
+}
+   
+    </style>
+ 
+
+</head>
+  <body>
+    <header class="position-relative vh-100 d-flex flex-column justify-content-center overflow-hidden">
+        <div class="text-white text-center">
+            <h1 class="display-1">You got next.</h1>
+            <p class="lead">A guide for first-time hoopers</p>
+        </div>
+        <div class="position-absolute w-100 h-100 top-0 start-0 video-holder z-n1">
+            <video class="fullscreen" src="images/ballheader.mp4"  muted preload loop autoplay></video>
+        </div>
+    </header>
+
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-12 col-sm-8 col-lg-6 col-xxl-5">
+                <h4 class="text-center mt-5">Lessons from a wanna-be baller:</h4>
+                <p class="text-center">By Xavey Bzdek</p>
+                <p class="text-center"><time datetime="2025-03-20">March 20th, 2025</time></p>
+                <p>I started at the age of 12, like Harry Potter, bound for greatness yet so miserably behind in understanding the world I was in. I learned a lot about the magic of my world, but to keep with the Harry Potter theme for a moment, my magic doesn’t come from Hogwarts, but from the city of Orlando, and my Wizards aren’t in robes, they’re scraping the bottom of the barrel, that’s my sport, teaching me old words with new meanings.</p>
+                <p>Nowadays my heat isn’t from some fire, and my nuggets don’t come in 10 pieces. I imagine blue and gold when I hear the words “Warriors”, and when a rider spunks his spurs, Wem-ban-yama is all I hear. I know where Iowa is now, and see New York as the home of two different icons for Liberty. This is a sport for wherever you are, and it tells you: come as you are.</p>
+                <p>There is always something to take, and something to give in life. To begin this jersey, you need to take some tools with you if you want to succeed. Once you’ve done that, we’ll talk about what you have to give. </p>
+                <p>Here’s the first tip(off):</p>
+            </div>
+
+        </div> <!-- closed row-->
+        <div class="row justify-content-center">
+            <div class="col-12">
+                <figure>
+                    <div class="ratio ratio-4x3">
+                        <iframe title="Starter Kit" aria-label="Table" id="datawrapper-chart-XTIs0" src="https://datawrapper.dwcdn.net/XTIs0/1/" width="975" height="550" scrolling="yes" frameborder="0"></iframe>
+                         
+                    </div>              
+                    <figcaption class="figure-caption text-center">Graphics don't lie, they multiply</figcaption>
+                </figure>
+
+
+            </div>
+            
+        </div>
+        <div class="row justify-content-center">
+            <div class="col-12 col-sm-8 col-lg-8 col-xxl-6">
+                <p>Now that you’ve heard the opening buzzer, and it’s here where we’ll dribble back in time.                </p>
+                <p></p>
+                <p></p>
+                <p></p>
+            </div>    
+        </div>
+    </div>
+    <!--End graphic start scrollytelling-->
+    <div class="container-fluid">
+  
+        <!-- slide 1 -->
+        <div class="row justify-content-center">
+      
+          <!-- sticky background holder -->
+          <div id="slide1-background-holder" class="sticky-top z-n1 vh-100"></div>
+      
+          <!-- white text box-->
+          <div class="col-6 bg-light">
+            <p class="m-3">I started as a young boy, playing ball on my own to feel free. Basketball was therapy if you believe such a thing. Even a little kid needs time to think, and this sport was something that I started with duct taped shoes and hair in my face. Anyone can do it. 
+            </p>
+          </div>
+      
+          <!-- empty div for space on bottom -->
+          <div class="vh-100"></div>
+      
+        </div><!-- close slide1 div -->
+      
+      
+      
+        <!-- slide 2 -->
+        <div class="row">
+          <div id="slide2-background-holder" class="vh-100 sticky-top z-n1"></div>
+          <div class="col-6 offset-1 bg-light">
+            <p class="m-3">The pope loves ballin’. He isn’t this athletic, he barely ever dunks to be honest, but he has on several occasions expressed his love for basketball. Don’t believe me? Here's a quote from my boy: 
+
+            </p>
+          </div>
+          <div class="vh-100"></div>
+        </div>
+
+        <!--Slide2.5-->
+
+        <div class="row">
+            <div id="slide25-background-holder" class="vh-100 sticky-top z-n1"></div>
+            <div class="col-6 offset-5 bg-light">
+              <p class="m-3">“I would like to say one thing with basketball in mind. Yours is a sport that lifts you up to the heavens because, as a famous former player once said, it is a sport that looks upwards, towards the basket, and so it is a real challenge for all those who are used to living with their eyes always on the ground.”
+
+                <i>Pope Francis I, May 31st 2021</i> </p>
+                
+            </div>
+            <div class="vh-100"></div>
+          </div>
+      
+      
+        <!-- slide 3 -->
+        <div class="row">
+          <div id="slide3-background-holder" class="vh-100 sticky-top z-n1"></div>
+          <div class="col-8 offset-1 bg-light">
+            <p class="m-3">See? It's for everyone.  </p>
+            <p class="m-3">I love this sport for always being there for me, especially when I’m alone. This sport can be played completely by oneself, but as someone who has played day after day in there life, I offer you this: don’t do it.  </p>
+            <p class="m-3">This is a team sport, there’s no game if it’s just you, you might as well go slap a tree with a stick for hours and then go home. The art of the pass is the most important part of this sport,
+                basketball brings together.</p>
+
+          </div>
+          <div class="vh-100"></div>
+        </div>
+      
+      </div><!-- close .container -->
+
+      <div class="container mt-5">
+        <div class="row justify-content-center">
+            <div class="col-12 col-sm-8 col-lg-8 col-xxl-6">
+                <p>It’s always time to start something new.</p>
+                <p>Hearing words of wisdom is great, and a sport so beautiful is still just a game right? Well, here are a few things I learned from life & basketball during my days.
+                </p>
+                <p>Take a closer look at each letter for me.</p>
+            </div>
+        </div>
+      </div><!-- close .container -->
+
+      <div class="container-fluid">
+        <div class="row justify-content-center">
+            <div class="col-12 col-md-10 col-lg-8 col-xxl-6">
+                <div class="ratio ratio-4x3">
+                    <iframe src='https://flo.uri.sh/visualisation/22241829/embed' title='Interactive or visual content' width="600" height="400" scrolling="yes" frameborder="0"></iframe>
+                </div>
+                <figcaption class="figure-caption text-center">Ball really is life</figcaption>
+            </div>
+        </div>
+        <div class="container mt-5">
+            <div class="row justify-content-center">
+                <div class="col-12 col-sm-8 col-lg-8 col-xxl-6">
+                    <p>Now let me talk: You shouldn’t fear other people, or failure, or hard work, you should fear standing still. You have a light inside you that burns for more, it burns for the unknown, it burns until one day you will find your entire being on fire, demanding that you take all your bravery and fling yourself into the uncertain new. That feeling is our endless wonder.</p>
+                    <p>Basketball may not be this deep y’all, but use this chance to practice asking yourself a tough question, what burns inside you? What do you want to do? What do you want to try? What’s stopping you? What are you waiting for? Go. </p> 
+                    <p>This sport is about playing in chaos. There is constant change, much like our own lives, and when you play it, you are practicing adaptation. There is an art of fluid motion in all things, in rivers and in people’s, we are always going somewhere. I don’t have to know where I’m going, but I’m going. Cause the going’s all I got.  And now it's your turn.                    </p>
+                    <h3>You got next.</h3>
+                    <p></p>
+                    <p>Now go find some friends and get hoopin'!</p>
+                </div>
+            </div>
+          </div><!-- close .container -->
+
+      </div>
+
+      <footer class="container-fluid bg-dark">
+        <div class="row justify-content-center">
+          <div class="col-12 py-5">
+            <p class="text-center text-white">You got next, a motivational blog for beginner-ballers</p>
+          </div>
+        </div>
+      </footer>
+  
+  
+    <script src="js/bootstrap.bundle.min.js"></script>
+  
+</body>
+
+
+
+
+
+
+  </html>
